@@ -8,3 +8,18 @@ wheels/
 
 # Virtual environments
 .venv
+
+# macOS
+.DS_Store
+
+# Notebook
+.ipynb_checkpoints/
+
+# Dati: ignora tutto in data/ tranne l'indice delle partite
+data/*
+!data/matches.csv
+
+# Demo e archivi, ovunque si trovino
+*.dem
+*.rar
+*.zip
